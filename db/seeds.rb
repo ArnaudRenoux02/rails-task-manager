@@ -3,5 +3,8 @@
 #
 # Examples:
 #
+    tasks = task.create([{name: 'apply to positions', number: '1'},
+    {name: 'watch the livecode', number: '2'}])
+
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)

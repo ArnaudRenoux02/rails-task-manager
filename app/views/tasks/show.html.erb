@@ -1,0 +1,7 @@
+ <h2><%= @task.name %></h2>
+ <p><%= @task.description %></p>
+ <%= link_to "editer", edit_task_path(@task)%>
+ <%= link_to "supprimer", task_path(@task), method: "DELETE" %>
+
+
+
